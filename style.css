@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+a{ /* FOI COLOCADO O # NO COMECO PARA INDICAR QUE EU QUERO MODIFICAR UM ID DE EUM HTTML E NAO EM  UMA TAG DO HTMK */
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+nav > a:hover{ /*ALTERAR TODOS OS ELEMENTOS "A" DENTRO DO ELEMENTO NAV */
+    cursor: pointer;
+    color: red;
+    background-color: gray;
+}
+
+main{
+    box-sizing: border-box;
+    width: 500px;
+    height: 800px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#imagem{
+    width: 150px;
+    height: 170px;
+    margin-right: 10000px;
+}
+
+#MeuGit{
+    top: 10px;
+    left: 30px;
+}
